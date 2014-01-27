@@ -1,0 +1,21 @@
+{
+  "name": "nepalhacker",
+  "description": "The git repository for the \"nepalhacker.com\" web application",
+  "version": "0.0.1",
+  "homepage": "",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "3",
+    "jade": "*",
+    "smush": "0",
+    "optimist": "0",
+    "recluster": "0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vnykmshr/nepalhacker.git"
+  },
+  "author": "Vinayak Mishra <viks@vnykmshr.com>"
+}
