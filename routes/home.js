@@ -4,7 +4,7 @@
 
 var home = {
   index: function index(req, res, next) {
-    res.locals.title = 'Home';
+    res.locals.title = 'home';
     res.render('index');
   }
 };

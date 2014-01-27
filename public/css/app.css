@@ -1,0 +1,107 @@
+/*
+  Stylesheet for HackerNews5
+  project by Mariz Melo MM 2012
+  http://github.com/jmarizgit/hackernews5
+*/
+
+/* RESET */
+ html {
+  height: 100%;
+}
+body, html, header, nav, footer, ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f4f4eb;
+  font-family:'Roboto', Arial;
+  font-size: 14px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+header {
+  background: #ff6600;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+header a {
+  color: white;
+}
+header nav {
+  padding: 6px 3px;
+  display: block;
+}
+header span, header a {
+  padding-left: 10px;
+}
+header .logo {
+  padding: 2px 6px;
+  margin: 5px 0;
+  border: 1px solid white;
+  text-decoration: none;
+}
+ol {
+  color: #828282;
+  margin-top: 45px;
+}
+ol i {
+  font-size: 20px;
+  margin-right: -5px;
+}
+ol a {
+  font-size: 12px;
+}
+ol a:visited {
+  color: #828282;
+}
+ol b {
+  font-size: 14px;
+}
+ol span {
+  font-size: 11px;
+}
+ol li {
+  margin-bottom: 20px;
+}
+footer {
+  border-top: 1px solid #ff6600;
+  margin-top: 35px;
+  padding: 10px;
+  text-align: center;
+}
+footer a {
+  font-size: 12px;
+  margin-left: 10px;
+}
+footer input {
+  border: 1px solid #cccec6;
+  border-top: 2px solid #cccec6;
+  margin: 20px 0;
+  outline-style: none;
+  padding: 5px 10px;
+  width: 20%;
+}
+/* CLASS UTILS */
+ .right {
+  float: right;
+}
+.rounded {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+}
+.strong {
+  font-weight: bold;
+}
+.spaced {
+  padding-left: 2px;
+  padding-right: 2px;
+}

@@ -11,18 +11,18 @@ html(class="no-js", lang="en")
   head
     include layout/header
     include layout/headercss
+
+    //if IE 7
+      <link rel="stylesheet" href="/css/fontello-ie7.css">
+
     include layout/headerjs
 
   body
-    .super-container.full-width
-      .container
-        include layout/navigation
+    include layout/navigation
 
-      .container
-        block content
+    block content
 
-      .container
-        include layout/footer
+    include layout/footer
 
-        include layout/footerjs
+    include layout/footerjs
 
